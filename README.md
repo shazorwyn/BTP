@@ -17,7 +17,7 @@ Contains all the models applied to data and outputs results for each of them.
 1.) Import the project on [Google Colab](https://colab.research.google.com/)
 ```
 !git clone https://github.com/shazorwyn/BTP
-!mv /content/Electricity-Fraud-Detection/* ./
+!mv /content/BTP/* ./
 ```
 2.) Download the dataset
 ```
