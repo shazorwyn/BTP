@@ -16,8 +16,18 @@ Contains all the models applied to data and outputs results for each of them.
 1.) Import the project on [Google Colab](https://colab.research.google.com/)
 
 ```
-!git clone https://github.com/shazorwyn/BTP
-!mv /content/Electricity-Fraud-Detection/* ./
+# Install gdown if not already installed
+!pip install -q gdown
+
+# Download the 7z file from your shared Google Drive link
+import gdown
+
+file_id = "1VHNAizO_Jbym6tNe7D2g8x-OWhryZihk"
+url = f"https://drive.google.com/uc?id={file_id}"
+output = "data.7z"
+
+gdown.download(url, output, quiet=False)
+
 ```
 
 2.) Unzip the dataset
