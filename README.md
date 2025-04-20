@@ -13,8 +13,13 @@ Contains all the models applied to data and outputs results for each of them.
 
 ## Follow the given steps to run this code:
 
-1.) Import the project on [Google Colab](https://colab.research.google.com/)
 
+1.) Import the project on [Google Colab](https://colab.research.google.com/)
+```
+!git clone https://github.com/shazorwyn/BTP
+!mv /content/Electricity-Fraud-Detection/* ./
+```
+2.) Download the dataset
 ```
 # Install gdown if not already installed
 !pip install -q gdown
