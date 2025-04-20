@@ -3,13 +3,13 @@
 The repository contains scripts for detection of electricity fraud. 
 ### File Description
 1.) data.7z
-data for the project
+Data for the project.
 2.) preprocessing.py
-clean and prepare the data for visualization and further training
+Clean and prepare the data for visualization and further training.
 3.) visualization.py
-script for obtaining all the plots and insight for our data
+Script for obtaining all the plots and insight for our data.
 4.) models.py
-contains all the models applied to data and outputs results for each of them
+Contains all the models applied to data and outputs results for each of them.
 
 ## Follow the given steps to run this code:
 
